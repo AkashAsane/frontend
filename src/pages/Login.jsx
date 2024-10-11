@@ -30,8 +30,8 @@ const Login = () => {
         password: formData.password
       });
 
-      // Store user data including token
-      login(response.data.user); // Pass the user object directly
+
+      login(response.data.user); 
       navigate('/create');
     } catch (error) {
       alert('Cannot login: ' + error.message);
