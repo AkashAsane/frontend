@@ -27,7 +27,7 @@ const Signup = () => {
     e.preventDefault();
     console.log('Signup data:', formData);
     try {
-      const response = await axios.post('http://localhost:8082/api/auth/signup', {
+      const response = await axios.post('https://backend-2-4liw.onrender.com/api/auth/login', {
         email: formData.email,
         password: formData.password,
         username: formData.username

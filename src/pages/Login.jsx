@@ -25,7 +25,7 @@ const Login = () => {
     e.preventDefault();
     console.log('login data:', formData);
     try {
-      const response = await axios.post('http://localhost:8082/api/auth/login', {
+      const response = await axios.post('https://backend-2-4liw.onrender.com/api/auth/login', {
         email: formData.email,
         password: formData.password
       });

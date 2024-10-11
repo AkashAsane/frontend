@@ -16,12 +16,15 @@
     "@editorjs/image": "^2.9.3",
     "@editorjs/list": "^1.10.0",
     "@editorjs/paragraph": "^2.11.6",
+    "@editorjs/quote": "^2.7.2",
     "@stripe/stripe-js": "^4.8.0",
     "axios": "^1.7.7",
+    "editor.js": "^0.1.0",
     "jwt-decode": "^4.0.0",
     "lucide-react": "^0.451.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-editor-js": "^2.1.0",
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
