@@ -4,6 +4,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Signup from './Signup';
 import { useAuth } from '../context/Authcontext';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -75,7 +76,7 @@ const Login = () => {
             Login
           </button>
         </form>
-        <p>Don't have an account? <span><a href="/signup">click here</a></span></p>
+        <p>Don't have an account? <span><Link to="/signup">click here</Link></span></p>
       </div>
     </div>
   );
